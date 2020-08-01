@@ -1,0 +1,15 @@
+import random
+
+ran1 = random.randint(1,100)
+ran2 = random.randint(1,100)
+ran3 = random.randint(1,100)
+ran4 = random.randint(1,100)
+ran5 = random.randint(1,100)
+ran6 = random.randint(1,100)
+ran7 = random.randint(1,100)
+ran8 = random.randint(1,100)
+ran9 = random.randint(1,100)
+ran10 = random.randint(1,100)
+print ("winning lotto numbers")
+print (ran1,ran2,ran3,ran4,ran5,ran6,ran7,ran8,ran9,ran10)
+print ("super bonus number:" + str(ran1+ran2+ran3+ran4+ran5+ran6+ran7+ran8+ran9+ran10))
